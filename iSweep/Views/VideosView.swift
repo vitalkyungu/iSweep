@@ -133,14 +133,14 @@ struct VideosView: View {
     }
     
     private func deleteVideos() async {
-            isDeleting = true
-            defer { isDeleting = false }
-            
-            let results = await StorageScanner.deleteMediaItems(viewModel.largeVideos)
-            await MainActor.run {
-                deleteResults = results
-                if results.successCount > 0 {
-                    viewModel.largeVideos.removeAll()
+        isDeleting = true
+        defer { isDeleting = false }
+        
+        let results = await StorageScanner.deleteMediaItems(viewModel.largeVideos)
+        await MainActor.run {
+            deleteResults = results
+            if results.successCount > 0 {
+                viewModel.largeVideos.removeAll()
             }
         }
     }
