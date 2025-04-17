@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C737ED982DA6FC1300DA64E1 /* Exceptions for "iSweep" folder in "iSweep" target */ = {
+		C76142402DB0F8A900F084E5 /* Exceptions for "iSweep" folder in "iSweep" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +24,7 @@
 		C780F7652DA4B038005EEE1B /* iSweep */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C737ED982DA6FC1300DA64E1 /* Exceptions for "iSweep" folder in "iSweep" target */,
+				C76142402DB0F8A900F084E5 /* Exceptions for "iSweep" folder in "iSweep" target */,
 			);
 			path = iSweep;
 			sourceTree = "<group>";
@@ -267,6 +267,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iSweep/Preview Content\"";
 				DEVELOPMENT_TEAM = J2R92JD23S;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iSweep/Info.plist;
@@ -301,6 +302,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iSweep/Preview Content\"";
 				DEVELOPMENT_TEAM = J2R92JD23S;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iSweep/Info.plist;
